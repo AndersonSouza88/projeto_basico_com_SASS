@@ -1,0 +1,22 @@
+$sprite-spacing: 5px; //nome_diretorio-spacing: px;
+@import 'sprite/*.png';
+
+$sprite-so-spacing: 15px; //nome_diretorio-spacing: px;
+@import 'sprite-so/*.png';
+
+//helpers
+@import 'helpers/variaveis';
+@import 'helpers/mixins';
+
+//base
+@import 'base/normalize';
+
+//layout
+@import 'layout/geral';
+@import 'layout/header';
+@import 'layout/destaque';
+@import 'layout/sobre';
+@import 'layout/planos';
+@import 'layout/blog';
+@import 'layout/contato';
+@import 'layout/footer';
